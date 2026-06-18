@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steffi's Haarstudio · Friseur in Flintsbach am Inn</title>
+  <meta name="description" content="Steffi's Haarstudio in Flintsbach am Inn: inhabergeführter Friseursalon für Schnitt, Farbe und Pflege. Persönliche Beratung, Kufsteiner Straße 9. Öffnungszeiten und Kontakt ansehen." />
+  <meta name="theme-color" content="#743c57" />
+  <link rel="canonical" href="https://steffis-haarstudio.example/" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Steffi's Haarstudio · Friseur in Flintsbach am Inn" />
+  <meta property="og:description" content="Inhabergeführter Friseursalon in Flintsbach am Inn. Schnitt, Farbe, Pflege. Kufsteiner Straße 9." />
+  <meta property="og:locale" content="de_DE" />
+
+  <!-- Schriften -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Strukturierte Daten für lokale Suche -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "Steffi's Haarstudio",
+    "description": "Inhabergeführter Friseursalon in Flintsbach am Inn. Schnitt, Farbe und Pflege für Damen, Herren und Kinder.",
+    "image": "https://steffis-haarstudio.example/favicon.svg",
+    "telephone": "+498034 2244",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kufsteiner Straße 9",
+      "addressLocality": "Flintsbach am Inn",
+      "postalCode": "83126",
+      "addressCountry": "DE"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "07:30", "closes": "17:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "07:00", "closes": "12:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+  <div class="scrollbar" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="top">
+    <a href="#top" class="nav__brand" aria-label="Steffi's Haarstudio – zur Startseite">
+      <span class="nav__mark" aria-hidden="true">S</span>
+      <span class="nav__name">Steffi's Haarstudio</span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navMenu" aria-label="Hauptnavigation">
+      <a href="#studio">Studio</a>
+      <a href="#leistungen">Leistungen</a>
+      <a href="#zeiten">Öffnungszeiten</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="tel:+4980342244" class="btn btn--primary nav__cta">Termin: 08034 2244</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+  <!-- HERO (Cinematic Foto-Montage) -->
+  <section class="hero">
+    <div class="hero__media" aria-hidden="true">
+      <img class="hero__slide" src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1600&q=70" alt="" fetchpriority="high" />
+      <img class="hero__slide" src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?auto=format&fit=crop&w=1600&q=70" alt="" loading="lazy" />
+      <img class="hero__slide" src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1600&q=70" alt="" loading="lazy" />
+      <div class="hero__scrim"></div>
+    </div>
+    <div class="hero__content">
+      <p class="eyebrow eyebrow--light">Friseursalon · Flintsbach am Inn</p>
+      <h1 class="hero__title"><span class="line">Steffi's</span><span class="line"><em>Haarstudio</em></span></h1>
+      <p class="hero__sub">
+        Persönliche Beratung, ehrliches Handwerk und ein gutes Gefühl,
+        mit dem du wieder rausgehst.
+      </p>
+      <div class="hero__actions">
+        <a href="tel:+4980342244" class="btn btn--primary btn--sheen">Termin vereinbaren</a>
+        <a href="#zeiten" class="btn btn--glass">Öffnungszeiten ansehen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAKTENLEISTE -->
+  <section class="factbar" aria-label="Kurzinfos">
+    <a class="factbar__item" href="https://www.google.com/maps/search/?api=1&query=Steffi%27s+Haarstudio+Kufsteiner+Stra%C3%9Fe+9+83126+Flintsbach+am+Inn" target="_blank" rel="noopener noreferrer">
+      <span>Adresse</span><strong>Kufsteiner Straße 9, Flintsbach</strong>
+    </a>
+    <a class="factbar__item" href="tel:+4980342244">
+      <span>Telefon</span><strong>08034 2244</strong>
+    </a>
+    <div class="factbar__item">
+      <span>Geöffnet</span><strong>Di–Fr 07:30–17:00 · Sa 07:00–12:00</strong>
+    </div>
+  </section>
+
+  <!-- STUDIO / ÜBER -->
+  <section class="studio" id="studio">
+    <div class="studio__inner reveal">
+      <p class="eyebrow">Das Studio</p>
+      <p class="studio__lead">
+        Mitten in Flintsbach, einen Steinwurf vom Inn entfernt: ein kleiner,
+        inhabergeführter Salon, in dem man dich beim Namen kennt.
+      </p>
+      <p class="studio__body">
+        Bei Steffi geht es nicht um schnelle Stückzahl, sondern um den Schnitt,
+        der zu dir passt, und um Farbe, die natürlich aussieht. Wir nehmen uns Zeit
+        für ein ehrliches Gespräch, bevor die Schere zum Einsatz kommt, und beraten dich
+        so, wie wir auch selbst beraten werden möchten. Ob frischer Schnitt, neue Farbe
+        oder einfach eine Auszeit zwischendurch, du gehst gepflegt und gut gelaunt wieder hinaus.
+      </p>
+    </div>
+  </section>
+
+  <!-- LEISTUNGEN -->
+  <section class="services" id="leistungen">
+    <header class="services__head reveal">
+      <h2>Was wir machen</h2>
+      <p>Vom klassischen Schnitt bis zur Typberatung. Preise besprechen wir gern persönlich vor Ort.</p>
+    </header>
+
+    <ul class="services__list">
+      <li class="service reveal">
+        <h3>Schnitt &amp; Styling</h3>
+        <p>Damen, Herren und Kinder. Waschen, Schneiden, Föhnen, Bart und alltagstaugliche Stylings.</p>
+      </li>
+      <li class="service reveal">
+        <h3>Farbe &amp; Strähnen</h3>
+        <p>Coloration, Foliensträhnen, Ansatz und sanfte Aufhellung. Abgestimmt auf Haut und Typ.</p>
+      </li>
+      <li class="service reveal">
+        <h3>Pflege &amp; Treatments</h3>
+        <p>Kuren und Pflege für strapaziertes Haar, damit Schnitt und Farbe länger schön bleiben.</p>
+      </li>
+      <li class="service reveal">
+        <h3>Anlass &amp; Beratung</h3>
+        <p>Hochsteckfrisuren für besondere Tage und ehrliche Typ- und Pflegeberatung.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- EINBLICKE (horizontale Scroll-Galerie, Beispielbilder) -->
+  <section class="reel" id="einblicke" aria-label="Einblicke ins Studio">
+    <div class="reel__pin">
+      <div class="reel__track">
+        <div class="reel__intro">
+          <p class="eyebrow">Einblicke</p>
+          <h2>Ein Ort, an dem<br>man sich wohlfühlt</h2>
+          <p>Scroll dich durch ein paar Eindrücke aus dem Studio.</p>
+        </div>
+        <figure class="reel__item">
+          <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=900&h=1100&q=72" width="900" height="1100" loading="lazy" alt="Persönlich eingerichteter Friseursalon mit Stuhl und Spiegel" />
+        </figure>
+        <figure class="reel__item">
+          <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&h=1100&q=72" width="900" height="1100" loading="lazy" alt="Friseurin föhnt und stylt die Haare einer Kundin" />
+        </figure>
+        <figure class="reel__item">
+          <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?auto=format&fit=crop&w=900&h=1100&q=72" width="900" height="1100" loading="lazy" alt="Heller, moderner Salonbereich mit Spiegeln" />
+        </figure>
+        <figure class="reel__item">
+          <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=900&h=1100&q=72" width="900" height="1100" loading="lazy" alt="Haarfarbe wird sorgfältig aufgetragen" />
+        </figure>
+        <figure class="reel__item">
+          <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?auto=format&fit=crop&w=900&h=1100&q=72" width="900" height="1100" loading="lazy" alt="Frisch gepflegtes, langes Haar in sanftem Flieder" />
+        </figure>
+      </div>
+    </div>
+    <p class="reel__note">Beispielbilder zur Veranschaulichung. Werden durch echte Fotos aus dem Studio ersetzt.</p>
+  </section>
+
+  <!-- ÖFFNUNGSZEITEN -->
+  <section class="hours" id="zeiten">
+    <div class="hours__card reveal">
+      <h2>Öffnungszeiten</h2>
+      <table class="hours__table" aria-label="Öffnungszeiten Steffi's Haarstudio">
+        <thead class="sr-only">
+          <tr><th scope="col">Tag</th><th scope="col">Uhrzeit</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Montag</td><td>geschlossen</td></tr>
+          <tr class="is-open"><td>Dienstag</td><td>07:30–17:00</td></tr>
+          <tr class="is-open"><td>Mittwoch</td><td>07:30–17:00</td></tr>
+          <tr class="is-open"><td>Donnerstag</td><td>07:30–17:00</td></tr>
+          <tr class="is-open"><td>Freitag</td><td>07:30–17:00</td></tr>
+          <tr class="is-open"><td>Samstag</td><td>07:00–12:00</td></tr>
+          <tr><td>Sonntag</td><td>geschlossen</td></tr>
+        </tbody>
+      </table>
+      <p class="hours__note">Termine am besten telefonisch. Außerhalb der Zeiten gern auf Anfrage.</p>
+    </div>
+    <div class="hours__aside reveal">
+      <p class="eyebrow">Kurz und ehrlich</p>
+      <p class="hours__big">Anrufen, vorbeischauen,<br>wohlfühlen.</p>
+      <a href="tel:+4980342244" class="btn btn--primary">08034 2244</a>
+    </div>
+  </section>
+
+  <!-- KONTAKT / ANFAHRT -->
+  <section class="contact" id="kontakt">
+    <div class="contact__info reveal">
+      <h2>Kontakt &amp; Anfahrt</h2>
+      <p class="contact__addr">
+        <strong>Steffi's Haarstudio</strong><br>
+        Kufsteiner Straße 9<br>
+        83126 Flintsbach am Inn
+      </p>
+      <p class="contact__row"><span>Telefon</span> <a href="tel:+4980342244">08034 2244</a></p>
+      <p class="contact__row"><span>Geöffnet</span> Di–Fr 07:30–17:00, Sa 07:00–12:00</p>
+      <div class="contact__actions">
+        <a class="btn btn--primary" href="https://www.google.com/maps/search/?api=1&query=Steffi%27s+Haarstudio+Kufsteiner+Stra%C3%9Fe+9+83126+Flintsbach+am+Inn" target="_blank" rel="noopener noreferrer">Route in Google Maps</a>
+        <a class="btn btn--ghost" href="tel:+4980342244">Anrufen</a>
+      </div>
+    </div>
+    <div class="contact__map reveal">
+      <iframe
+        title="Karte: Steffi's Haarstudio, Kufsteiner Straße 9, Flintsbach am Inn"
+        src="https://www.google.com/maps?q=Kufsteiner%20Stra%C3%9Fe%209,%2083126%20Flintsbach%20am%20Inn&output=embed"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade" tabindex="-1">
+      </iframe>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__brand">
+      <span class="nav__mark" aria-hidden="true">S</span>
+      <span>Steffi's Haarstudio</span>
+    </div>
+    <p class="footer__addr">Kufsteiner Straße 9 · 83126 Flintsbach am Inn · <a href="tel:+4980342244">08034 2244</a></p>
+    <p class="footer__legal">
+      Demo-/Designstudie für DT&nbsp;Webstudio, keine offizielle Website.
+      Texte sind teils Platzhalter, die Fotos sind lizenzfreie Beispielbilder.
+    </p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
