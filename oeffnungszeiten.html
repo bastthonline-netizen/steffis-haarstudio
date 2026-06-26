@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Öffnungszeiten · Steffi's Haarstudio</title>
+  <meta name="description" content="Öffnungszeiten von Steffi's Haarstudio in Flintsbach am Inn: Dienstag bis Freitag 07:30 bis 17:00 Uhr, Samstag 07:00 bis 12:00 Uhr." />
+  <meta name="theme-color" content="#743c57" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+  <div class="scrollbar" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="index.html" class="nav__brand" aria-label="Steffi's Haarstudio – zur Startseite">
+      <span class="nav__mark" aria-hidden="true">S</span>
+      <span class="nav__name">Steffi's Haarstudio</span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navMenu" aria-label="Hauptnavigation">
+      <a href="index.html">Studio</a>
+      <a href="leistungen.html">Leistungen</a>
+      <a href="preise.html">Preise</a>
+      <a href="oeffnungszeiten.html" class="is-active" aria-current="page">Öffnungszeiten</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="tel:+4980342244" class="btn btn--primary nav__cta">Termin: 08034 2244</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="pagehead reveal">
+      <p class="eyebrow">Besuch uns</p>
+      <h1>Wann wir <em>da sind</em></h1>
+      <p>Am besten kommst du nach kurzer telefonischer Absprache, dann ist garantiert Zeit für dich.</p>
+    </section>
+
+    <section class="hours">
+      <div class="hours__card reveal">
+        <h2>Öffnungszeiten</h2>
+        <table class="hours__table" aria-label="Öffnungszeiten Steffi's Haarstudio">
+          <thead class="sr-only">
+            <tr><th scope="col">Tag</th><th scope="col">Uhrzeit</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Montag</td><td>geschlossen</td></tr>
+            <tr class="is-open"><td>Dienstag</td><td>07:30–17:00</td></tr>
+            <tr class="is-open"><td>Mittwoch</td><td>07:30–17:00</td></tr>
+            <tr class="is-open"><td>Donnerstag</td><td>07:30–17:00</td></tr>
+            <tr class="is-open"><td>Freitag</td><td>07:30–17:00</td></tr>
+            <tr class="is-open"><td>Samstag</td><td>07:00–12:00</td></tr>
+            <tr><td>Sonntag</td><td>geschlossen</td></tr>
+          </tbody>
+        </table>
+        <p class="hours__note">Termine am besten telefonisch. Außerhalb der Zeiten gern auf Anfrage.</p>
+      </div>
+      <div class="hours__aside reveal">
+        <p class="eyebrow">Kurz und ehrlich</p>
+        <p class="hours__big">Anrufen, vorbeischauen,<br>wohlfühlen.</p>
+        <a href="tel:+4980342244" class="btn btn--primary">08034 2244</a>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta__inner reveal">
+        <h2>Wo du uns findest</h2>
+        <p>Kufsteiner Straße 9, mitten in Flintsbach am Inn.</p>
+        <div class="cta__actions">
+          <a href="kontakt.html" class="btn btn--primary">Kontakt &amp; Anfahrt</a>
+          <a href="tel:+4980342244" class="btn btn--ghost">Anrufen</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__brand">
+      <span class="nav__mark" aria-hidden="true">S</span>
+      <span>Steffi's Haarstudio</span>
+    </div>
+    <p class="footer__addr">Kufsteiner Straße 9 · 83126 Flintsbach am Inn · <a href="tel:+4980342244">08034 2244</a></p>
+    <p class="footer__legal">Demo-/Designstudie für DT&nbsp;Webstudio, keine offizielle Website. Texte sind teils Platzhalter, die Fotos sind lizenzfreie Beispielbilder.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

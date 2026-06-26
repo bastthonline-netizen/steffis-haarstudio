@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt &amp; Anfahrt · Steffi's Haarstudio</title>
+  <meta name="description" content="Kontakt und Anfahrt zu Steffi's Haarstudio, Kufsteiner Straße 9, 83126 Flintsbach am Inn. Telefon 08034 2244." />
+  <meta name="theme-color" content="#743c57" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+  <div class="scrollbar" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="index.html" class="nav__brand" aria-label="Steffi's Haarstudio – zur Startseite">
+      <span class="nav__mark" aria-hidden="true">S</span>
+      <span class="nav__name">Steffi's Haarstudio</span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navMenu" aria-label="Hauptnavigation">
+      <a href="index.html">Studio</a>
+      <a href="leistungen.html">Leistungen</a>
+      <a href="preise.html">Preise</a>
+      <a href="oeffnungszeiten.html">Öffnungszeiten</a>
+      <a href="kontakt.html" class="is-active" aria-current="page">Kontakt</a>
+      <a href="tel:+4980342244" class="btn btn--primary nav__cta">Termin: 08034 2244</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="pagehead reveal">
+      <p class="eyebrow">Kontakt</p>
+      <h1>Kontakt &amp; <em>Anfahrt</em></h1>
+      <p>Ruf an, schreib eine Nachricht oder komm einfach vorbei. Wir freuen uns auf dich.</p>
+    </section>
+
+    <div class="page page--split">
+      <div class="contact__info reveal">
+        <p class="contact__addr">
+          <strong>Steffi's Haarstudio</strong><br>
+          Kufsteiner Straße 9<br>
+          83126 Flintsbach am Inn
+        </p>
+        <p class="contact__row"><span>Telefon</span> <a href="tel:+4980342244">08034 2244</a></p>
+        <p class="contact__row"><span>Geöffnet</span> Di–Fr 07:30–17:00, Sa 07:00–12:00</p>
+        <div class="contact__actions">
+          <a class="btn btn--primary" href="https://www.google.com/maps/search/?api=1&query=Steffi%27s+Haarstudio+Kufsteiner+Stra%C3%9Fe+9+83126+Flintsbach+am+Inn" target="_blank" rel="noopener noreferrer">Route in Google Maps</a>
+          <a class="btn btn--ghost" href="tel:+4980342244">Anrufen</a>
+        </div>
+      </div>
+      <div class="contact__map reveal">
+        <iframe
+          title="Karte: Steffi's Haarstudio, Kufsteiner Straße 9, Flintsbach am Inn"
+          src="https://www.google.com/maps?q=Kufsteiner%20Stra%C3%9Fe%209,%2083126%20Flintsbach%20am%20Inn&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" tabindex="-1">
+        </iframe>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__brand">
+      <span class="nav__mark" aria-hidden="true">S</span>
+      <span>Steffi's Haarstudio</span>
+    </div>
+    <p class="footer__addr">Kufsteiner Straße 9 · 83126 Flintsbach am Inn · <a href="tel:+4980342244">08034 2244</a></p>
+    <p class="footer__legal">Demo-/Designstudie für DT&nbsp;Webstudio, keine offizielle Website. Texte sind teils Platzhalter, die Fotos sind lizenzfreie Beispielbilder.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leistungen · Steffi's Haarstudio</title>
+  <meta name="description" content="Leistungen von Steffi's Haarstudio in Flintsbach am Inn: Schnitt und Styling, Farbe und Strähnen, Pflege und Treatments, Anlass und Beratung." />
+  <meta name="theme-color" content="#743c57" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+  <div class="scrollbar" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="index.html" class="nav__brand" aria-label="Steffi's Haarstudio – zur Startseite">
+      <span class="nav__mark" aria-hidden="true">S</span>
+      <span class="nav__name">Steffi's Haarstudio</span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navMenu" aria-label="Hauptnavigation">
+      <a href="index.html">Studio</a>
+      <a href="leistungen.html" class="is-active" aria-current="page">Leistungen</a>
+      <a href="preise.html">Preise</a>
+      <a href="oeffnungszeiten.html">Öffnungszeiten</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="tel:+4980342244" class="btn btn--primary nav__cta">Termin: 08034 2244</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="pagehead reveal">
+      <p class="eyebrow">Leistungen</p>
+      <h1>Was wir <em>machen</em></h1>
+      <p>Vom klassischen Schnitt bis zur Typberatung. Die genauen Preise findest du auf der Seite Preise, beraten wird dich aber gern persönlich vor Ort.</p>
+    </section>
+
+    <div class="page">
+      <ul class="services__list">
+        <li class="service reveal">
+          <h3>Schnitt &amp; Styling</h3>
+          <p>Damen, Herren und Kinder. Waschen, Schneiden, Föhnen, Bart und alltagstaugliche Stylings.</p>
+        </li>
+        <li class="service reveal">
+          <h3>Farbe &amp; Strähnen</h3>
+          <p>Coloration, Foliensträhnen, Ansatz und sanfte Aufhellung. Abgestimmt auf Haut und Typ.</p>
+        </li>
+        <li class="service reveal">
+          <h3>Pflege &amp; Treatments</h3>
+          <p>Kuren und Pflege für strapaziertes Haar, damit Schnitt und Farbe länger schön bleiben.</p>
+        </li>
+        <li class="service reveal">
+          <h3>Anlass &amp; Beratung</h3>
+          <p>Hochsteckfrisuren für besondere Tage und ehrliche Typ- und Pflegeberatung.</p>
+        </li>
+      </ul>
+    </div>
+
+    <section class="cta">
+      <div class="cta__inner reveal">
+        <h2>Klingt nach deinem Termin?</h2>
+        <p>Schau dir die Preise an oder ruf direkt an, wir freuen uns auf dich.</p>
+        <div class="cta__actions">
+          <a href="preise.html" class="btn btn--primary">Zu den Preisen</a>
+          <a href="tel:+4980342244" class="btn btn--ghost">Anrufen</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__brand">
+      <span class="nav__mark" aria-hidden="true">S</span>
+      <span>Steffi's Haarstudio</span>
+    </div>
+    <p class="footer__addr">Kufsteiner Straße 9 · 83126 Flintsbach am Inn · <a href="tel:+4980342244">08034 2244</a></p>
+    <p class="footer__legal">Demo-/Designstudie für DT&nbsp;Webstudio, keine offizielle Website. Texte sind teils Platzhalter, die Fotos sind lizenzfreie Beispielbilder.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
