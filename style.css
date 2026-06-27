@@ -528,3 +528,18 @@ a.factbar__item:hover strong { color: var(--plum); }
   }
   .bento__item { grid-area: auto; }
 }
+
+/* ============================================================
+   LOOKS / INSPIRATION (KI-generierte Beispiel-Looks)
+   ============================================================ */
+.looks { background: var(--paper-2); border-top: 1px solid var(--line-soft); }
+.looks__inner { max-width: var(--maxw); margin: 0 auto; padding: clamp(3rem, 7vw, 5.5rem) clamp(1.1rem, 4vw, 2.6rem); }
+.looks__head { max-width: 620px; margin-bottom: clamp(1.8rem, 4vw, 2.6rem); }
+.looks__head h2 { font-size: clamp(1.9rem, 4.5vw, 2.8rem); margin: .2rem 0 .8rem; }
+.looks__head p { color: var(--ink-soft); }
+.looks__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(.8rem, 2vw, 1.4rem); }
+.look { margin: 0; }
+.look img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: var(--radius); display: block; }
+.look figcaption { margin-top: .7rem; font-size: .98rem; color: var(--ink); }
+.looks__note { margin-top: 1.2rem; font-size: .85rem; color: var(--ink-soft); opacity: .8; }
+@media (max-width: 760px) { .looks__grid { grid-template-columns: 1fr 1fr; } }
