@@ -374,8 +374,12 @@ a.factbar__item:hover strong { color: var(--plum); }
 .contact__row a { color: var(--plum); text-decoration: none; }
 .contact__row a:hover { text-decoration: underline; }
 .contact__actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.8rem; }
-.contact__map { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: 0 24px 60px -40px rgba(90,44,67,0.5); }
+.contact__map { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: 0 24px 60px -40px rgba(90,44,67,0.5); min-height: 360px; display: flex; }
 .contact__map iframe { width: 100%; height: 100%; min-height: 360px; border: 0; display: block; filter: grayscale(0.25) contrast(1.02); }
+.map-consent { display: flex; align-items: center; justify-content: center; width: 100%; background: var(--paper-2); }
+.map-consent__inner { text-align: center; padding: 2.4rem 2rem; max-width: 320px; }
+.map-consent__icon { font-size: 2.4rem; margin: 0 0 .8rem; }
+.map-consent__text { font-size: .92rem; color: var(--ink-soft); margin-bottom: 1.4rem; line-height: 1.5; }
 
 /* ============================================================
    FOOTER

@@ -7,9 +7,7 @@
   <meta name="description" content="Kontakt und Anfahrt zu Steffi's Haarstudio, Kufsteiner Straße 9, 83126 Flintsbach am Inn. Telefon 08034 2244." />
   <meta name="theme-color" content="#743c57" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="fonts/fonts.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -57,13 +55,27 @@
           <a class="btn btn--ghost" href="tel:+4980342244">Anrufen</a>
         </div>
       </div>
-      <div class="contact__map reveal">
-        <iframe
-          title="Karte: Steffi's Haarstudio, Kufsteiner Straße 9, Flintsbach am Inn"
-          src="https://www.google.com/maps?q=Kufsteiner%20Stra%C3%9Fe%209,%2083126%20Flintsbach%20am%20Inn&output=embed"
-          loading="lazy" referrerpolicy="no-referrer-when-downgrade" tabindex="-1">
-        </iframe>
+      <div class="contact__map reveal" id="mapWrap">
+        <div class="map-consent">
+          <div class="map-consent__inner">
+            <p class="map-consent__icon" aria-hidden="true">📍</p>
+            <p class="map-consent__text">Um die Karte anzuzeigen, wird Google Maps geladen. Dabei werden Daten an Google übertragen.</p>
+            <button class="btn btn--primary" onclick="loadMap()">Karte laden</button>
+          </div>
+        </div>
       </div>
+      <script>
+        function loadMap() {
+          var wrap = document.getElementById('mapWrap');
+          var iframe = document.createElement('iframe');
+          iframe.title = "Karte: Steffi’s Haarstudio, Kufsteiner Straße 9, Flintsbach am Inn";
+          iframe.src = "https://www.google.com/maps?q=Kufsteiner%20Stra%C3%9Fe%209,%2083126%20Flintsbach%20am%20Inn&output=embed";
+          iframe.setAttribute('referrerpolicy', 'no-referrer-when-downgrade');
+          iframe.setAttribute('tabindex', '-1');
+          wrap.innerHTML = '';
+          wrap.appendChild(iframe);
+        }
+      </script>
     </div>
 
   </main>
