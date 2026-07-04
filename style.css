@@ -394,6 +394,24 @@ a.factbar__item:hover strong { color: var(--plum); }
 .footer__addr { color: var(--ink-soft); margin-bottom: .9rem; }
 .footer__addr a { color: var(--plum); text-decoration: none; }
 .footer__legal { font-size: .85rem; color: var(--ink-soft); max-width: 46ch; margin: 0 auto; opacity: .85; }
+.footer__links { display: flex; justify-content: center; gap: 1.2rem; margin: 1rem 0 .3rem; font-size: .85rem; }
+.footer__links a { color: var(--ink-soft); text-decoration: none; }
+.footer__links a:hover { color: var(--plum); text-decoration: underline; }
+
+/* ============================================================
+   RECHTLICHES (Impressum / Datenschutz)
+   ============================================================ */
+.legal { max-width: 740px; margin: 0 auto; padding: 0 clamp(1.1rem, 4vw, 2.6rem) clamp(3.5rem, 8vw, 6rem); }
+.legal h2 { font-size: clamp(1.4rem, 3vw, 1.75rem); margin: 2.4rem 0 .9rem; }
+.legal h2:first-child { margin-top: 0; }
+.legal h3 { font-family: var(--sans); font-size: 1.05rem; font-weight: 600; margin: 1.6rem 0 .5rem; }
+.legal p, .legal address, .legal li { color: var(--ink-soft); font-style: normal; line-height: 1.7; }
+.legal address { margin: 0 0 1rem; }
+.legal a { color: var(--plum); text-decoration: none; }
+.legal a:hover { text-decoration: underline; }
+.legal ul { margin: .5rem 0; padding-left: 1.2rem; }
+.legal li { margin-bottom: .5rem; }
+.legal__updated { margin-top: 2.6rem; font-size: .85rem; color: var(--ink-soft); opacity: .7; }
 
 /* ============================================================
    SCROLL-REVEAL
