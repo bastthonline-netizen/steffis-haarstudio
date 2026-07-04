@@ -28,5 +28,5 @@
 ## Wichtig
 - Keine erfundenen Preise; Leistungen generisch, Preise „vor Ort / auf Anfrage"
 - Keine Stockbilder erfinden, echte Fotos später von der Inhaberin
-- Footer-Hinweis „Demo-/Designstudie für DT Webstudio" beibehalten
+- Footer-Hinweis „Demo-/Designstudie für DT Webstudio" auf Basti-Wunsch entfernt (Stand 2026-07-04); Galerie nutzt weiterhin Stockfotos, das bei Bedarf im Blick behalten
 - Keine Gedankenstriche (—/–) im sichtbaren Text
