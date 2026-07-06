@@ -48,4 +48,13 @@
   }, { threshold: 0.14, rootMargin: "0px 0px -8% 0px" });
 
   items.forEach(function (el) { io.observe(el); });
+
+  // ---- Hero-Animation pausieren, wenn außerhalb des Sichtfelds ----
+  var hero = document.querySelector(".hero");
+  if (hero) {
+    var heroIO = new IntersectionObserver(function (entries) {
+      hero.classList.toggle("is-paused", !entries[0].isIntersecting);
+    }, { threshold: 0 });
+    heroIO.observe(hero);
+  }
 })();
